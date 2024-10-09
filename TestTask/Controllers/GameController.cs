@@ -33,13 +33,14 @@ namespace TestTask.Controllers
             game.DeveloperId = dev.Id;
             game.Developer = dev;
 
+
             for (var i = 0; i < game.Genres.Count; i++)
             {
                 var genre = await _repository.FindByNameAsync<Genre>(game.Genres[i].Name);
                 if (genre == null)
                     return BadRequest("Genre does not exist");
                 genre.Games.Clear();
-                game.Genres.Add(genre);
+                game.Genres[i] = genre;
             }
 
 
