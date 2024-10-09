@@ -36,8 +36,10 @@ namespace TestTask.Controllers
             for (var i = 0; i < game.Genres.Count; i++)
             {
                 var genre = await _repository.FindByNameAsync<Genre>(game.Genres[i].Name);
+                if (genre == null)
+                    return BadRequest("Genre does not exist");
                 genre.Games.Clear();
-                game.Genres[i] = genre;
+                game.Genres.Add(genre);
             }
 
 
@@ -75,13 +77,23 @@ namespace TestTask.Controllers
         {
             var changegame = await _gamerepository.FindByIdAsync(game.Id);
             changegame.Name = game.Name;
-            changegame.Developer = await _repository.FindByIdAsync<Developer>(game.Developer.Id);
+
+            var dev = await _repository.FindByNameAsync<Developer>(game.Developer.Name);
+            if (dev == null)
+            {
+                dev = new Developer { Id = Guid.NewGuid(), Name = game.Developer.Name };
+                await _repository.CreateAsync(dev);
+            }
+            changegame.Developer = dev;
             changegame.DeveloperId = changegame.Developer.Id;
 
-
             for (var i = 0; i < game.Genres.Count; i++)
-                   changegame.Genres.Add(await _repository.FindByNameAsync<Genre>(game.Genres[i].Name));
-            
+            {
+                var genre = await _repository.FindByNameAsync<Genre>(game.Genres[i].Name);
+                if (genre == null)
+                    return BadRequest("Genre does not exist");
+                changegame.Genres.Add(genre);
+            }
 
             var res = await _repository.ChangeAsync(changegame);
             if (res)

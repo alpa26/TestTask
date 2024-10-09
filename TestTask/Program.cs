@@ -38,7 +38,7 @@ namespace TestTask
             app.UseDefaultFiles(new DefaultFilesOptions
             {
                 DefaultFileNames = new
-    List<string> { "index.html" }
+            List<string> { "index.html" }
             });
             app.UseStaticFiles();
 

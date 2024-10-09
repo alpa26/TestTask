@@ -88,7 +88,7 @@ namespace TestTask.Services
             {
                 await _database.SaveChangesAsync();
             }
-            catch (DbUpdateException e)
+            catch (Exception e)
             {
                 throw e;
             }
