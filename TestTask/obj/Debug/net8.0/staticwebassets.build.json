@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "nH85H0SNpD3yeM/J4mPWQr3S3E0rLr2PhzJ3x8WHMz0=",
+  "Source": "TestTask",
+  "BasePath": "_content/TestTask",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "TestTask\\wwwroot",
+      "Source": "TestTask",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\тестовое C#\\TestTask\\TestTask\\wwwroot\\",
+      "BasePath": "_content/TestTask",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

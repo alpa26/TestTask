@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\user\\Desktop\\тестовое C#\\TestTask\\TestTask\\wwwroot\\css\\gamelistpage.css",
+      "PackagePath": "staticwebassets\\css\\gamelistpage.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\тестовое C#\\TestTask\\TestTask\\wwwroot\\css\\index.css",
+      "PackagePath": "staticwebassets\\css\\index.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\тестовое C#\\TestTask\\TestTask\\wwwroot\\gamelistpage.html",
+      "PackagePath": "staticwebassets\\gamelistpage.html"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\тестовое C#\\TestTask\\TestTask\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\тестовое C#\\TestTask\\TestTask\\wwwroot\\js\\GameListPage.js",
+      "PackagePath": "staticwebassets\\js\\GameListPage.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\тестовое C#\\TestTask\\TestTask\\wwwroot\\js\\Index.js",
+      "PackagePath": "staticwebassets\\js\\Index.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TestTask.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.TestTask.props",
+      "PackagePath": "build\\TestTask.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.TestTask.props",
+      "PackagePath": "buildMultiTargeting\\TestTask.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.TestTask.props",
+      "PackagePath": "buildTransitive\\TestTask.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
