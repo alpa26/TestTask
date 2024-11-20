@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lGknKB9is67eEXNASZYZSS8gVHSMmyfJIgrW96XmHr+gVpnDvE8JlTPWLx275dEVnV1Q5ONVPFQRBcPucmnLFQ==",
+  "dgSpecHash": "zJfzFPq28tKyVZMucuMSyQV7QCYZFWubN2Nrc8Uvrg5piRn5dyNP/8CLS5pZ30KA+ALAN57fF+jo7FOyoiyyew==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\тестовое C#\\TestTask\\TestTask\\TestTask.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\Прочее\\Тест задание\\TestTask\\TestTask\\TestTask.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

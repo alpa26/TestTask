@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\тестовое C#\\TestTask\\TestTask\\TestTask.csproj": {}
+    "C:\\Users\\user\\Desktop\\Прочее\\Тест задание\\TestTask\\TestTask\\TestTask.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\тестовое C#\\TestTask\\TestTask\\TestTask.csproj": {
+    "C:\\Users\\user\\Desktop\\Прочее\\Тест задание\\TestTask\\TestTask\\TestTask.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\тестовое C#\\TestTask\\TestTask\\TestTask.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\Прочее\\Тест задание\\TestTask\\TestTask\\TestTask.csproj",
         "projectName": "TestTask",
-        "projectPath": "C:\\Users\\user\\Desktop\\тестовое C#\\TestTask\\TestTask\\TestTask.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\Прочее\\Тест задание\\TestTask\\TestTask\\TestTask.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\тестовое C#\\TestTask\\TestTask\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\Прочее\\Тест задание\\TestTask\\TestTask\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\user\\Desktop\\Nuget": {},
+          "C:\\Users\\user\\Documents\\Пакеты": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,6 +35,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -93,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
